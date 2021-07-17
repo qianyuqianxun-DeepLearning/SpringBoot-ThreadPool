@@ -22,4 +22,6 @@ public class EmailServiceImpl implements EmailService {
         log.info("邮件发送成功");
     }
 
+
+
 }
