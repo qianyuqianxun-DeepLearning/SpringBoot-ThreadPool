@@ -17,7 +17,7 @@ public class BeanThreadPoolConfig {
     @Autowired
     private ThreadPoolConfig config;
 
-    @Bean
+    @Bean(name = "beanThreadPool")
     public Executor beanThreadPool() {
         ThreadPoolTaskExecutor executor = new ThreadPoolTaskExecutor();
         //核心线程池大小

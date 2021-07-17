@@ -21,7 +21,4 @@ public class EmailServiceImpl implements EmailService {
         ThreadUtils.sleep(3000);
         log.info("邮件发送成功");
     }
-
-
-
 }
